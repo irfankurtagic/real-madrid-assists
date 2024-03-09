@@ -1,7 +1,7 @@
 # Real Madrid Assisting Stats
- A very simple table, containing Real Madrid Assisting Stats in all competitions, for the previous seven years.
+A very simple table, containing Real Madrid Assisting Stats in all competitions, for the previous seven years.
 
- And, of course, you can access it [here](https://byc0jl3.neocities.org/rm-assists/).
+You can access it [here](https://byc0jl3.neocities.org/rm-assists/).
 
 ## Theme
 A user indicates their preference through an operating system setting (e.g. light or dark mode) or a user agent setting. More about [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme).
