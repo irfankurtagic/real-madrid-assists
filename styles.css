@@ -1,0 +1,222 @@
+html {
+  font-family: 'Berkeley Oldstyle Book';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5rem;
+  font-size: 17px;
+  word-wrap: break-word !important;
+}
+
+main {
+  color: #0a0a0a;
+  max-width: 777px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 8px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header,
+footer {
+  background: #f8f8f8;
+}
+
+header>.section,
+footer>.section {
+  max-width: 777px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 29px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 6px;
+}
+
+th {
+  color: #0a0a0a;
+  background: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:visited {
+  text-decoration: underline;
+}
+
+details {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#socials a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+#socials>p>a {
+  margin: 0;
+  padding: 0 5px 0 0;
+  border: 0;
+}
+
+#socials>p>a>img {
+  height: 35px;
+  width: 35px;
+  margin: 0 5px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+/* defaults */
+h1 {
+  display: block;
+  font-size: 2.4em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  /*margin-top: 0.83em; def*/
+  margin-top: 3em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #141414;
+    color: hsla(0, 0%, 100%, 0.9);
+  }
+
+  main {
+    color: hsla(0, 0%, 100%, 0.9);
+  }
+
+  header,
+  footer {
+    background-color: black;
+  }
+
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #e85d01;
+  }
+
+  td,
+  th {
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
+  }
+
+  th {
+    color: hsla(0, 0%, 100%, 0.9);
+    background: inherit;
+  }
+
+  summary::marker {
+    color: #e85d01;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 0.8rem;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  button {
+    font-size: 0.8rem;
+  }
+
+  table {
+    margin-top: 5px;
+  }
+
+  td,
+  th {
+    padding: 1px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 0.5rem;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  button {
+    font-size: 0.5rem;
+  }
+
+  table {
+    margin-top: 5px;
+  }
+
+  td,
+  th {
+    padding: 1px;
+  }
+}
+
+@font-face {
+  font-family: 'Berkeley Oldstyle Book';
+  src: url(/Berkeley-Oldstyle-Book.otf);
+}
