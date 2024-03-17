@@ -1,514 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="alternate" href="https://byc0jl3.neocities.org/feed.xml" type="application/rss+xml" title="byc0jl3">
-    <link rel="stylesheet" href="/rm-assists/styles.css">
-    <link rel="shortcut icon" href="/site_icon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="alternate"
+      href="https://byc0jl3.neocities.org/feed.xml"
+      type="application/rss+xml"
+      title="byc0jl3"
+    />
+    <link rel="stylesheet" href="/rm-assists/styles.css" />
+    <link rel="shortcut icon" href="/site_icon.ico" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <title>Real Madrid Assisting Stats</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="section">
-            <h1 style="font-family: monospace; font-size: inherit;">Real Madrid Assisting Stats | All Competitions</h1>
-        </div>
+      <div class="section">
+        <h1 style="font-family: monospace; font-size: inherit">
+          Real Madrid Assisting Stats | All Competitions
+        </h1>
+      </div>
     </header>
 
     <main>
-        <div class="section">
-            <p> Sortable Table Updated: 2024 Mar 09 </p>
-            <table class="sortable">
-                <tr>
-                    <th><button>Player</button></th>
-                    <th><button>23/24</button></th>
-                    <th><button>22/23</button></th>
-                    <th><button>21/22</button></th>
-                    <th><button>20/21</button></th>
-                    <th><button>19/20</button></th>
-                    <th><button>18/19</button></th>
-                    <th><button>17/18</button></th>
-                    <th><button>Total</button></th>
-                </tr>
-                <tr>
-                    <td>Bellingham</td>
-                    <td>9</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td>Rodrygo</td>
-                    <td>8</td>
-                    <td>11</td>
-                    <td>10</td>
-                    <td>8</td>
-                    <td>3</td>
-                    <td></td>
-                    <td></td>
-                    <td>40</td>
-                </tr>
-                <tr>
-                    <td>Kroos</td>
-                    <td>7</td>
-                    <td>6</td>
-                    <td>3</td>
-                    <td>12</td>
-                    <td>9</td>
-                    <td>6</td>
-                    <td>10</td>
-                    <td>53</td>
-                </tr>
-                <tr>
-                    <td>Vinicius</td>
-                    <td>7</td>
-                    <td>21</td>
-                    <td>20</td>
-                    <td>7</td>
-                    <td>4</td>
-                    <td>12</td>
-                    <td></td>
-                    <td>71</td>
-                </tr>
-                <tr>
-                    <td>Modric</td>
-                    <td>6</td>
-                    <td>6</td>
-                    <td>12</td>
-                    <td>6</td>
-                    <td>8</td>
-                    <td>8</td>
-                    <td>8</td>
-                    <td>54</td>
-                </tr>
-                <tr>
-                    <td>Valverde</td>
-                    <td>5</td>
-                    <td>7</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>5</td>
-                    <td></td>
-                    <td></td>
-                    <td>20</td>
-                </tr>
-                <tr>
-                    <td>Fran García</td>
-                    <td>5</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td>6</td>
-                </tr>
-                <tr>
-                    <td>Brahim Díaz</td>
-                    <td>4</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td></td>
-                    <td>7</td>
-                </tr>
-                <tr>
-                    <td>L. Vazquez</td>
-                    <td>4</td>
-                    <td>3</td>
-                    <td></td>
-                    <td>8</td>
-                    <td>2</td>
-                    <td>4</td>
-                    <td>16</td>
-                    <td>37</td>
-                </tr>
-                <tr>
-                    <td>Joselu</td>
-                    <td>4</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>Carvajal</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>4</td>
-                    <td>4</td>
-                    <td>8</td>
-                    <td>6</td>
-                    <td>7</td>
-                    <td>38</td>
-                </tr>
-                <tr>
-                    <td>Camavinga</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>6</td>
-                </tr>
-                <tr>
-                    <td>Alaba</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td>Tchouameni</td>
-                    <td>1</td>
-                    <td>4</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>Antonio Rüdiger</td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Ceballos</td>
-                    <td></td>
-                    <td>9</td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td>2</td>
-                    <td></td>
-                    <td>12</td>
-                </tr>
-                <tr>
-                    <td>Asensio</td>
-                    <td></td>
-                    <td>8</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>9</td>
-                    <td>6</td>
-                    <td>28</td>
-                </tr>
-                <tr>
-                    <td>Benzema</td>
-                    <td></td>
-                    <td>6</td>
-                    <td>15</td>
-                    <td>9</td>
-                    <td>11</td>
-                    <td>11</td>
-                    <td>11</td>
-                    <td>63</td>
-                </tr>
-                <tr>
-                    <td>Hazard</td>
-                    <td></td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>7</td>
-                    <td></td>
-                    <td></td>
-                    <td>12</td>
-                </tr>
-                <tr>
-                    <td>Nacho</td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Mendy</td>
-                    <td></td>
-                    <td>1</td>
-                    <td>5</td>
-                    <td></td>
-                    <td>4</td>
-                    <td></td>
-                    <td></td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>Álvaro Rodríguez</td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Casemiro</td>
-                    <td></td>
-                    <td></td>
-                    <td>4</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>19</td>
-                </tr>
-                <tr>
-                    <td>Militão</td>
-                    <td></td>
-                    <td></td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>Luka Jovic</td>
-                    <td></td>
-                    <td></td>
-                    <td>3</td>
-                    <td></td>
-                    <td>2</td>
-                    <td></td>
-                    <td></td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>Marcelo</td>
-                    <td></td>
-                    <td></td>
-                    <td>2</td>
-                    <td>4</td>
-                    <td>7</td>
-                    <td>6</td>
-                    <td>11</td>
-                    <td>30</td>
-                </tr>
-                <tr>
-                    <td>Isco</td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>10</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>Mariano Díaz</td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Miguel Gutiérrez</td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>Sergio Ramos</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>Marvin Park</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Gareth Bale</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>2</td>
-                    <td>7</td>
-                    <td>7</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>James Rodríguez</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>2</td>
-                    <td></td>
-                    <td></td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>Varane</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td></td>
-                    <td>2</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Álvaro Odriozola</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td>9</td>
-                    <td></td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>Sergio Reguilón</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>3</td>
-                    <td></td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>C. Ronaldo</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>8</td>
-                    <td>8</td>
-                </tr>
-                <tr>
-                    <td>Mateo Kovacic</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>3</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Borja Mayoral</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>3</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Theo Hernández</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>3</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Hakimi</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td>1</td>
-                </tr>
-            </table>
+      <div class="section">
+        <p>Updated: 2024 Mar 16</p>
+        <canvas id="myChart" style="width: 100%; max-width: 777px"></canvas>
+        <table class="sortable">
+          <tr>
+            <th><button>Player</button></th>
+            <th><button>23/24</button></th>
+            <th><button>22/23</button></th>
+            <th><button>21/22</button></th>
+            <th><button>20/21</button></th>
+            <th><button>19/20</button></th>
+            <th><button>18/19</button></th>
+            <th><button>17/18</button></th>
+            <th><button>Total</button></th>
+          </tr>
+          <tr>
+            <td>Bellingham</td>
+            <td>9</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Valverde</td>
+            <td>8</td>
+            <td>7</td>
+            <td>2</td>
+            <td>1</td>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>Rodrygo</td>
+            <td>8</td>
+            <td>11</td>
+            <td>10</td>
+            <td>8</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>Kroos</td>
+            <td>7</td>
+            <td>6</td>
+            <td>3</td>
+            <td>12</td>
+            <td>9</td>
+            <td>6</td>
+            <td>10</td>
+            <td>53</td>
+          </tr>
+          <tr>
+            <td>Vinicius</td>
+            <td>7</td>
+            <td>21</td>
+            <td>20</td>
+            <td>7</td>
+            <td>4</td>
+            <td>12</td>
+            <td></td>
+            <td>71</td>
+          </tr>
+          <tr>
+            <td>Modric</td>
+            <td>6</td>
+            <td>6</td>
+            <td>12</td>
+            <td>6</td>
+            <td>8</td>
+            <td>8</td>
+            <td>8</td>
+            <td>54</td>
+          </tr>
+          <tr>
+            <td>Fran García</td>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Brahim Díaz</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td></td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>L. Vazquez</td>
+            <td>4</td>
+            <td>3</td>
+            <td></td>
+            <td>8</td>
+            <td>2</td>
+            <td>4</td>
+            <td>16</td>
+            <td>37</td>
+          </tr>
+          <tr>
+            <td>Joselu</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Carvajal</td>
+            <td>4</td>
+            <td>5</td>
+            <td>4</td>
+            <td>4</td>
+            <td>8</td>
+            <td>6</td>
+            <td>7</td>
+            <td>38</td>
+          </tr>
+          <tr>
+            <td>Camavinga</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Alaba</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Tchouameni</td>
+            <td>1</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Antonio Rüdiger</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Ceballos</td>
+            <td>1</td>
+            <td>9</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Asensio</td>
+            <td></td>
+            <td>8</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>9</td>
+            <td>6</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>Benzema</td>
+            <td></td>
+            <td>6</td>
+            <td>15</td>
+            <td>9</td>
+            <td>11</td>
+            <td>11</td>
+            <td>11</td>
+            <td>63</td>
+          </tr>
+          <tr>
+            <td>Hazard</td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>7</td>
+            <td></td>
+            <td></td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>Nacho</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Mendy</td>
+            <td></td>
+            <td>1</td>
+            <td>5</td>
+            <td></td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Álvaro Rodríguez</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Casemiro</td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+            <td>6</td>
+            <td>5</td>
+            <td>1</td>
+            <td>3</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Militão</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Luka Jovic</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Marcelo</td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>4</td>
+            <td>7</td>
+            <td>6</td>
+            <td>11</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Isco</td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>10</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>Mariano Díaz</td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Miguel Gutiérrez</td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Sergio Ramos</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Marvin Park</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Gareth Bale</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>7</td>
+            <td>7</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>James Rodríguez</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Varane</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Álvaro Odriozola</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>9</td>
+            <td></td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Sergio Reguilón</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>C. Ronaldo</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>8</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Mateo Kovacic</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Borja Mayoral</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Theo Hernández</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Hakimi</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+        </table>
 
-
-            <p>
-                Sources:
-                <a href="https://www.realmadrid.com">Real Madrid</a>,
-                <a href="https://www.transfermarkt.com/">Transfermarkt</a>
-            </p>
-
-        </div>
+        <p>
+          Sources:
+          <a href="https://www.realmadrid.com">Real Madrid</a>,
+          <a href="https://www.transfermarkt.com/">Transfermarkt</a>
+        </p>
+      </div>
     </main>
 
     <footer>
-        <div class="section">
-            <p style="display: inline-block;">
-                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbyc0jl3.neocities.org%2F">HTML</a>
-                &
-                <a
-                    href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbyc0jl3.neocities.org%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS</a>
-                Validity check by w3.
-            </p>
-        </div>
+      <div class="section">
+        <p style="display: inline-block">
+          <a
+            href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbyc0jl3.neocities.org%2F"
+            >HTML</a
+          >
+          &
+          <a
+            href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbyc0jl3.neocities.org%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
+            >CSS</a
+          >
+          Validity check by w3.
+        </p>
+      </div>
     </footer>
 
+    <script>
+      const xValues = [
+        "Vinicius",
+        "Benzema",
+        "Modric",
+        "Kroos",
+        "Rodrygo",
+        "Carvajal",
+        "L. Vazquez",
+      ];
+      const yValues = [71, 63, 54, 53, 40, 38, 37];
+      const barColors = [
+        "red",
+        "green",
+        "blue",
+        "orange",
+        "brown",
+        "lightblue",
+        "gold",
+      ];
+
+      new Chart("myChart", {
+        type: "bar",
+        data: {
+          labels: xValues,
+          datasets: [
+            {
+              backgroundColor: barColors,
+              data: yValues,
+            },
+          ],
+        },
+        options: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: "",
+          },
+        },
+      });
+    </script>
+
     <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
-
-</body>
-
+  </body>
 </html>

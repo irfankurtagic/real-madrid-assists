@@ -1,5 +1,5 @@
 html {
-  font-family: 'Berkeley Oldstyle Book';
+  font-family: "Berkeley Oldstyle Book";
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5rem;
@@ -24,12 +24,20 @@ footer {
   background: #f8f8f8;
 }
 
-header>.section,
-footer>.section {
+header > .section,
+footer > .section {
   max-width: 777px;
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
+}
+
+button {
+  font-family: "Berkeley Oldstyle Book";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  word-wrap: break-word !important;
 }
 
 table {
@@ -72,13 +80,13 @@ a:visited {
   text-decoration: none;
 }
 
-#socials>p>a {
+#socials > p > a {
   margin: 0;
   padding: 0 5px 0 0;
   border: 0;
 }
 
-#socials>p>a>img {
+#socials > p > a > img {
   height: 35px;
   width: 35px;
   margin: 0 5px 0 0;
@@ -117,15 +125,6 @@ h3 {
   margin-right: 0;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -211,6 +210,6 @@ h3 {
 }
 
 @font-face {
-  font-family: 'Berkeley Oldstyle Book';
+  font-family: "Berkeley Oldstyle Book";
   src: url(/Berkeley-Oldstyle-Book.otf);
 }
