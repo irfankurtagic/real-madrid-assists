@@ -1,5 +1,5 @@
 # Real Madrid Assisting Stats
-A very simple table, containing Real Madrid Assisting Stats in all competitions, for the previous two years.
+A simple table showing Real Madrid's assist statistics across all competitions over the past two years.
 
 You can access it [here](https://byc0jl3.neocities.org/rm-assists/).
 
