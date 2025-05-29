@@ -1,5 +1,5 @@
 html {
-  font-family: inherit;
+  font-family: 'Ubuntu';
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word !important;
@@ -176,4 +176,10 @@ h3 {
   th {
     padding: 1px;
   }
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(/Ubuntu-Regular.ttf);
 }
