@@ -8,7 +8,8 @@ A user indicates their preference through an operating system setting (e.g. ligh
 
 Dark             |  Light
 :-------------------------:|:-------------------------:
-![image](https://github.com/irfankurtagic/real-madrid-assists/assets/72319855/e3ce0585-8203-4b7e-997e-4d481c47c186)  |  ![image](https://github.com/irfankurtagic/real-madrid-assists/assets/72319855/c81b5236-9cec-4284-beeb-b5d4053943a0)
+![image](https://github.com/user-attachments/assets/7924525d-d348-4408-bf02-597b4573ec56)  |  ![image](https://github.com/user-attachments/assets/34f79ef4-0bc1-4022-8852-3aba6ac660bf)
+
 
 ###
 Hala Madrid! 🔥 Hala Luka Modric! 💪😊
