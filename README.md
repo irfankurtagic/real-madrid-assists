@@ -1,4 +1,4 @@
-# Real Madrid Assists
+# Real Madrid Assists 👑
 
 A responsive table showing **Real Madrid's assist statistics across competitions** over the past two years.
 
