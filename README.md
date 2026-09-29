@@ -6,7 +6,7 @@ Built as a small personal project to present football statistics in a clean and 
 
 ## 🔗 Demo
 
-**[View Real Madrid Assists](https://byc0jl3.neocities.org/real-madrid-assists/)**
+**[View Real Madrid Assists](https://irfankurtagic.github.io/real-madrid-assists/)**
 
 ## 🌙 Theme
 
