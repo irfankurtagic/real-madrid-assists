@@ -1,155 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="alternate"
-      href="https://byc0jl3.neocities.org/feed.xml"
-      type="application/rss+xml"
-      title="byc0jl3"
-    />
-    <link rel="stylesheet" href="/rm-assists/styles.css" />
-    <link rel="shortcut icon" href="/site_icon.ico" type="image/x-icon" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-    <title>Real Madrid Assisting Stats</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="section">
-        <h1 style="font-size: 16px;">
-          Real Madrid Assisting Stats | All Competitions
-        </h1>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Real Madrid assists for the previous two years in all competitions.">
+  <link rel="alternate" href="https://byc0jl3.neocities.org/rss.xml" type="application/rss+xml" title="byc0jl3" />
+  <link rel="stylesheet" href="/rm-assists/styles.css" />
+  <link rel="shortcut icon" href="/site_icon.ico" type="image/x-icon" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <title>Real Madrid Assisting Stats - byc0jl3</title>
+</head>
 
-    <main>
-      <div class="section">
-        
-        <canvas id="myChart" style="width: 100%; max-width: 777px"></canvas>
-        <table>
+<body>
+  <header>
+    <div class="section">
+      <h1>RM Assisting Stats | All Competitions</h1>
+    </div>
+  </header>
+
+  <main>
+    <!--  UPDATE THE DATE  !!! -->
+    <!--  UPDATE THE DATE  !!! -->
+    <!--  UPDATE THE DATE  !!! -->
+    <!--  UPDATE THE DATE  !!! -->
+    <!--  UPDATE THE DATE  !!! -->
+    <!--  UPDATE THE DATE  !!! -->
+    <div class="meta">
+      <p>📅 <time datetime="2026-2-22">2026 Feb 22</time>
+        | Sources:
+        <a href="https://www.realmadrid.com">Real Madrid</a> ·
+        <a href="https://www.transfermarkt.com/">Transfermarkt</a>
+      </p>
+    </div>
+
+    <div class="section">
+
+      <canvas id="myChart" aria-label="Real Madrid assists bar chart" role="img"></canvas>
+
+
+      <table id="assistTable">
+        <caption> Table with Real Madrid assists for the previous two years in all competitions </caption>
+        <thead>
           <tr>
-            <th>Player</th>
-            <th>Total</th>
-            <th>24/25</th>
-            <th>23/24</th>
+            <th scope="col" data-type="string">Player</th>
+            <th scope="col" data-type="number">Total</th>
+            <th scope="col" data-type="number">25/26</th>
+            <th scope="col" data-type="number">24/25</th>
           </tr>
+        </thead>
+
+        <tbody>
           <tr>
-            <tr>
             <td>Vinicius</td>
-            <td>29</td>
-            <td>17</td>
-            <td>12</td>
-          </tr>
-            <td>Bellingham</td>
-            <td>27</td>
-            <td>14</td>
-            <td>13</td>
-          </tr>
-           <tr>
-            <td>Rodrygo</td>
+            <td>30</td>
+            <td>11</td>
             <td>19</td>
-            <td>10</td>
-            <td>9</td>
           </tr>
           <tr>
-            <td>Modric</td>
-            <td>17</td>
-            <td>9</td>
-            <td>8</td>
+            <td>A. Guler</td>
+            <td>24</td>
+            <td>13</td>
+            <td>11</td>
           </tr>
           <tr>
             <td>Valverde</td>
-            <td>16</td>
-            <td>8</td>
+            <td>20</td>
+            <td>12</td>
             <td>8</td>
           </tr>
           <tr>
-            <td>Brahim Díaz</td>
-             <td>16</td>
-            <td>7</td>
-            <td>9</td>
+            <td>Bellingham</td>
+            <td>19</td>
+            <td>4</td>
+            <td>15</td>
           </tr>
           <tr>
-            <td>L. Vazquez</td>
-            <td>16</td>
-            <td>7</td>
-            <td>9</td>
+            <td>Rodrygo</td>
+            <td>17</td>
+            <td>6</td>
+            <td>11</td>
           </tr>
-        </table>
+          <tr>
+            <td>B. Díaz</td>
+            <td>14</td>
+            <td>6</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Mbappe</td>
+            <td>11</td>
+            <td>6</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    </div>
+  </main>
 
-        <br>
-        <!--  UPDATE THE DATE  -->
-        <p>📅 2025 May 21</p>
+  <footer>
+    <div class="section">
+      <p>
+        <a href="/license.html">CC BY-NC-SA</a>
+        © 2026 byc0jl3 | Validity check by w3
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbyc0jl3.neocities.org%2F">HTML</a> ·
+        <a
+          href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbyc0jl3.neocities.org%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS</a>
+        · <a href="http://validator.w3.org/feed/check.cgi?url=https%3A//byc0jl3.neocities.org/rss.xml">RSS</a>
+      </p>
+    </div>
+  </footer>
 
-        <p>
-          Sources:
-          <a href="https://www.realmadrid.com">Real Madrid</a>,
-          <a href="https://www.transfermarkt.com/">Transfermarkt</a>
-        </p>
-      </div>
-    </main>
+  <script>
+    const players = [
+      { name: "Vinicius", total: 30 },
+      { name: "A. Guler", total: 24 },
+      { name: "Valverde", total: 20 },
+      { name: "Bellingham", total: 19 },
+      { name: "Rodrygo", total: 17 },
+      { name: "B. Díaz", total: 14 },
+      { name: "Mbappe", total: 11 }
+    ];
 
-    <footer>
-      <div class="section">
-        <p style="display: inline-block">
-          <a
-            href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbyc0jl3.neocities.org%2F"
-            >HTML</a
-          >
-          &
-          <a
-            href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbyc0jl3.neocities.org%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
-            >CSS</a
-          >
-          Validity check by w3.
-        </p>
-      </div>
-    </footer>
+    const xValues = players.map(p => p.name);
+    const yValues = players.map(p => p.total);
 
-    <script>
-      const xValues = [
-        "Vinicius ",
-        "Bellingham",
-        "Rodrygo",
-        "Modrić",
-        "Valverde",
-        "Brahim Díaz",
-        "L. Vázquez"
-      ];
-      const yValues = [29, 27, 19, 17, 16, 16, 16, 5];
-      const barColors = [
-        "red",
-        "green",
-        "blue",
-        "orange",
-        "brown",
-        "lightblue",
-        "gold"
-      ];
+    const barColors = [
+      "#3A5BA0",  // steel blue
+      "#4E9F3D",  // forest green
+      "#E09F3E",  // amber
+      "#6D597A",  // muted plum
+      "#577590",  // blue-gray
+      "#43AA8B",  // teal green
+      "#495057"   // charcoal
+    ];
 
-      new Chart("myChart", {
-        type: "bar",
-        data: {
-          labels: xValues,
-          datasets: [
-            {
-              backgroundColor: barColors,
-              data: yValues,
-            },
-          ],
-        },
-        options: {
-          legend: { display: false },
-          title: {
-            display: true,
-            text: "",
-          },
-        },
+    new Chart(document.getElementById("myChart"), {
+      type: "bar",
+      data: {
+        labels: xValues,
+        datasets: [{
+          backgroundColor: barColors,
+          data: yValues
+        }]
+      },
+      options: {
+        legend: { display: false },
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true,
+              callback: value => Number.isInteger(value) ? value : null
+            }
+          }]
+        }
+      }
+    });
+
+  </script>
+
+
+  <script>
+    const getCellValue = (tr, idx) =>
+      tr.children[idx].innerText.trim();
+
+    const comparer = (idx, type, asc) => (a, b) => {
+      const v1 = getCellValue(asc ? a : b, idx);
+      const v2 = getCellValue(asc ? b : a, idx);
+
+      if (type === "number") {
+        return Number(v1.replace(/[^\d.-]/g, "")) - Number(v2.replace(/[^\d.-]/g, ""));
+      }
+      return v1.localeCompare(v2);
+    };
+
+    document.querySelectorAll("#assistTable th").forEach((th, idx) => {
+      let asc = true;
+      th.addEventListener("click", () => {
+        const table = th.closest("table");
+        const tbody = table.querySelector("tbody");
+        const type = th.dataset.type;
+
+        const rows = Array.from(tbody.querySelectorAll("tr"))
+          .sort(comparer(idx, type, asc));
+
+        asc = !asc;
+        rows.forEach(tr => tbody.appendChild(tr));
       });
-    </script>
+    });
+  </script>
 
+</body>
 
-  </body>
 </html>
