@@ -41,7 +41,7 @@ real-madrid-assists/
 
 This is a small football statistics project made for fun and as an exercise in presenting structured data with a simple, responsive web interface.
 
-No frameworks, build tools or JavaScript are required.
+No frameworks or build tools are required.
 
 **Hala Madrid! ⚪️👑**
 
